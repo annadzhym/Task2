@@ -1,0 +1,177 @@
+.content {
+    font-family: 'Roboto', sans-serif;
+}
+.info {
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+}
+.acordion {
+
+}
+.acordion__element {
+    position: relative;
+}
+.acordion__element--background {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+}
+.acordion__element--title {
+    color:  #808080;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+.acordion__element--subtitle {
+    color:  white;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+    text-align: left;
+}
+.acordion__list {
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    list-style-type: none;
+    color: white;
+}
+.acordion__list--blueDots:before {
+    content: '•';
+    color:  #1c7fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+.clients {
+}
+.clients__info {
+    margin-bottom: 3%;
+}
+.clients__title {
+    color:  #363636;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.clients__slogan {
+    color:  #363636;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+}
+
+.clients__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clients__button {
+    background-color:  #1c7fff;
+    height: 60px;
+    color:  #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+.clients__button--desktop {
+    display: none;
+}
+.agrotechnics {
+    background: url("../img/agro.png") no-repeat 100%;
+    background-size: cover;
+}
+.automobile{
+    background: url("../img/automobile.png") no-repeat 100%;
+    background-size: cover;
+}
+.cargo {
+    background: url("../img/cargo.png") no-repeat 100%;
+    background-size: cover;
+}
+.specialEquipment {
+    background: url("../img/specialEquipment.png") no-repeat 100%;
+    background-size: cover;
+}
+.train {
+    background: url("../img/train.png") no-repeat 100%;
+    background-size: cover;
+}
+.popup {
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.popup__content{
+    width: 70%;
+    margin: 10% auto;
+    height: 250px;
+    border: 3px solid darkgrey;
+    border-top: 30px solid darkgrey;
+    background: white;
+    padding: 3%;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: -13%;
+    right: 0;
+}
+.buttons {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+@media screen and (min-width:991px){
+    .acordion__element--title {
+        font-size: 40px;
+    }
+    .acordion__element--subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .acordion__list {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .clients {
+        padding: 0 8%;
+    }
+    .clients__title {
+        font-size: 30px;
+        text-align: left;
+    }
+    .clients__slogan {
+        font-size: 16px;
+        text-align: left;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .clients__slogan span{
+        font-weight: 600;
+    }
+    .clients__button {
+        height: 60px;
+        font-size: 12px;
+    }
+    .clients__button--desktop {
+        display: block;
+    }
+    .clients__button--mobile {
+        display: none;
+    }
+}
