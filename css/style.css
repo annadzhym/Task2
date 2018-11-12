@@ -23,20 +23,20 @@
 }
 .acordion__element--title {
     color:  #808080;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: 900;
     text-align: center;
 }
 .acordion__element--subtitle {
     color:  white;
-    font-size: 12px;
+    font-size: 35px;
     font-weight: 900;
     line-height: 18px;
     text-align: left;
 }
 .acordion__list {
     font-weight: 300;
-    line-height: 24px;
+    font-size: 28px;
     text-align: left;
     list-style-type: none;
     color: white;
@@ -44,7 +44,7 @@
 .acordion__list--blueDots:before {
     content: '•';
     color:  #1c7fff;
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 22px;
     text-align: left;
